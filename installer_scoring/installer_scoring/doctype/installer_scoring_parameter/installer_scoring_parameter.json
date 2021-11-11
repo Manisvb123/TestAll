@@ -1,0 +1,62 @@
+{
+ "actions": [],
+ "autoname": "field:parameter_name",
+ "creation": "2021-11-09 22:00:58.669219",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "parameter_name",
+  "weightage",
+  "sequence",
+  "scoring_mechanism_section"
+ ],
+ "fields": [
+  {
+   "fieldname": "parameter_name",
+   "fieldtype": "Data",
+   "label": "Parameter Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "weightage",
+   "fieldtype": "Data",
+   "label": "Weightage"
+  },
+  {
+   "fieldname": "sequence",
+   "fieldtype": "Int",
+   "label": "Sequence"
+  },
+  {
+   "fieldname": "scoring_mechanism_section",
+   "fieldtype": "Select",
+   "label": "Scoring Mechanism",
+   "options": "SUM\nAVERAGE"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-11-09 22:08:06.481620",
+ "modified_by": "Administrator",
+ "module": "Installer Scoring",
+ "name": "Installer Scoring Parameter",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

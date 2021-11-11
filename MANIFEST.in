@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include installer_scoring *.css
+recursive-include installer_scoring *.csv
+recursive-include installer_scoring *.html
+recursive-include installer_scoring *.ico
+recursive-include installer_scoring *.js
+recursive-include installer_scoring *.json
+recursive-include installer_scoring *.md
+recursive-include installer_scoring *.png
+recursive-include installer_scoring *.py
+recursive-include installer_scoring *.svg
+recursive-include installer_scoring *.txt
+recursive-exclude installer_scoring *.pyc

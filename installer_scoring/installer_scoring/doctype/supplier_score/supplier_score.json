@@ -1,0 +1,83 @@
+{
+ "actions": [],
+ "autoname": "field:supplier_name",
+ "creation": "2021-11-09 22:07:20.902080",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "supplier_name",
+  "parameter_name",
+  "sub_parameter_name",
+  "sub_parameter_value",
+  "sub_parameter_score",
+  "parameter_weightage",
+  "score"
+ ],
+ "fields": [
+  {
+   "fieldname": "supplier_name",
+   "fieldtype": "Link",
+   "label": "Supplier Name",
+   "options": "Supplier",
+   "unique": 1
+  },
+  {
+   "fieldname": "parameter_name",
+   "fieldtype": "Link",
+   "label": "Parameter Name",
+   "options": "Installer Scoring Parameter"
+  },
+  {
+   "fieldname": "sub_parameter_name",
+   "fieldtype": "Link",
+   "label": "Sub Parameter Name",
+   "options": "Installer Scoring Sub Parameter"
+  },
+  {
+   "fieldname": "sub_parameter_value",
+   "fieldtype": "Select",
+   "label": "Sub Parameter Value"
+  },
+  {
+   "fieldname": "sub_parameter_score",
+   "fieldtype": "Select",
+   "label": "Sub Parameter Score"
+  },
+  {
+   "fetch_from": "parameter_name.weightage",
+   "fieldname": "parameter_weightage",
+   "fieldtype": "Data",
+   "label": "Parameter Weightage"
+  },
+  {
+   "fieldname": "score",
+   "fieldtype": "Int",
+   "label": "Score"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-11-09 22:16:47.323651",
+ "modified_by": "Administrator",
+ "module": "Installer Scoring",
+ "name": "Supplier Score",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

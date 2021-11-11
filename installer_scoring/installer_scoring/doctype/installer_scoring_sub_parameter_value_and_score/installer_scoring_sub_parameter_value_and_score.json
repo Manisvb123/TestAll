@@ -1,0 +1,37 @@
+{
+ "actions": [],
+ "creation": "2021-11-09 21:56:53.293929",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sub_parameter_value",
+  "sub_parameter_score"
+ ],
+ "fields": [
+  {
+   "fieldname": "sub_parameter_value",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Sub Parameter Value"
+  },
+  {
+   "fieldname": "sub_parameter_score",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Sub Parameter Score"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-11-09 21:57:58.718685",
+ "modified_by": "Administrator",
+ "module": "Installer Scoring",
+ "name": "Installer Scoring Sub Parameter Value and Score",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
